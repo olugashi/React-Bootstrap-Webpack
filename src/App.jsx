@@ -2,12 +2,15 @@
 // Import react
 import React from "react";
 import ControlledCarousel from "./ControlledCarousel";
+import HeaderNavbar from "./HeaderNavbar";
+import Footer from "./Footer";
 
 class App extends React.Component {
   render() {
     return (
       <div>
         <div className="jumbotron">
+          <HeaderNavbar />
           <ControlledCarousel />
           <h1 className="display-4">Amazing React, Bootstrap and Webpack</h1>
           <p className="lead">Created with love</p>
@@ -21,6 +24,7 @@ class App extends React.Component {
               Learn more
             </a>
           </p>
+          <Footer />
         </div>
       </div>
     );
