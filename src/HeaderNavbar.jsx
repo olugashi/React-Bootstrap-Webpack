@@ -4,7 +4,7 @@ import { Navbar, Nav } from "react-bootstrap";
 function HeaderNavbar() {
   return (
     <div>
-      <Navbar bg="dark" variant="dark" fixed="top">
+      <Navbar bg="dark" variant="dark">
         <Navbar.Brand href="#home">Navbar</Navbar.Brand>
         <Nav className="mr-auto">
           <Nav.Link href="#home">Home</Nav.Link>

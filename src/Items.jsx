@@ -3,7 +3,10 @@ import Item from "./Item";
 
 function Items() {
   return (
-    <div>
+    <div class="row">
+      <Item />
+      <Item />
+      <Item />
       <Item />
     </div>
   );

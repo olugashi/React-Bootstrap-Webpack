@@ -10,10 +10,10 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <div className="jumbotron">
+        <div>
           <HeaderNavbar />
           <ControlledCarousel />
-
+          <Items />
           <Footer />
         </div>
       </div>
